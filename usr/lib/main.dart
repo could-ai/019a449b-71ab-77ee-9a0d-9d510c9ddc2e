@@ -28,28 +28,40 @@ class ElectronicsStoreApp extends StatelessWidget {
 class HomePage extends StatelessWidget {
   final List<Map<String, dynamic>> products = const [
     {
-      'name': 'Bluetooth Qulaqcıq',
+      'name': 'GTab Buds',
       'price': 35.0,
       'image':
           'https://images.pexels.com/photos/3825517/pexels-photo-3825517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
     },
     {
-      'name': 'USB-C Kabel',
-      'price': 10.0,
+      'name': 'Anker USB-C Kabel',
+      'price': 15.0,
       'image':
-          'https://images.pexels.com/photos/4316/technology-computer-chips-gigabyte.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+          'https://images.pexels.com/photos/13969533/pexels-photo-13969533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
     },
     {
-      'name': 'Powerbank 10000mAh',
-      'price': 55.0,
+      'name': 'Xiaomi Powerbank 20000mAh',
+      'price': 75.0,
       'image':
-          'https://images.pexels.com/photos/1334598/pexels-photo-1334598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+          'https://images.pexels.com/photos/1038935/pexels-photo-1038935.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
     },
     {
-      'name': 'Gaming Mouse',
-      'price': 85.0,
+      'name': 'Logitech G Pro',
+      'price': 120.0,
       'image':
-          'https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+          'https://images.pexels.com/photos/459762/pexels-photo-459762.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    },
+    {
+      'name': 'JBL Go 3 Speaker',
+      'price': 99.0,
+      'image':
+          'https://images.pexels.com/photos/1279813/pexels-photo-1279813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    },
+    {
+      'name': 'Samsung 4K Monitor',
+      'price': 450.0,
+      'image':
+          'https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
     }
   ];
 
